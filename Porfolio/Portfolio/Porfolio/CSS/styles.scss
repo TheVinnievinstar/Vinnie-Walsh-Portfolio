@@ -152,7 +152,7 @@ a {
 }
 
   /*arrow*/
-  /*.icon-arrow {
+  .icon-arrow {
     box-sizing: border-box;
 
     position: absolute;
@@ -164,7 +164,7 @@ a {
     border: 3px solid #80D4FF;
     box-shadow: 8px 2px 10px rgba(0, 0, 0, 0.25);
     transform: rotate(90deg);
-  }*/
+  }
 
 .about-para {
   position: absolute;
@@ -181,12 +181,7 @@ a {
   font-family: 'Inria Sans';
 }
 
-
-
 .intro-yt {
-  position: absolute;
-  top: 0px;
-  left: 200px;
   
   .sec2{
     position: absolute;
@@ -219,13 +214,8 @@ a {
 
 }
 
-
-
 .college {
-  position: absolute;
-  top: 0px;
-  left: 200px;
-
+  
   .sec3{
     position: absolute;
     height: 228px;
@@ -257,12 +247,7 @@ a {
 
 }
 
-
-
 .web {
-  position: absolute;
-  top: 0px;
-  left: 200px;
   
   .sec4{
     position: absolute;
@@ -295,9 +280,7 @@ a {
 
 }
 
-
-
-  /*imgs for about*/
+/*imgs*/
 .ttv1 {
   box-sizing: border-box;
 
@@ -407,86 +390,7 @@ a {
 }
 
 /*Skills section*/
-/*skills desc*/
-.hero-skills{
-  position: absolute;
-  width: 1226px;
-  height: 190px;
-  left: 350px;
-  top: 125px;
-  
-  font-family: 'Inria Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 54px;
-  /* identical to box height */
-  
-  text-align: center;
-}
 
-/*web dev skills*/
-.web-skills{
-  h1 {
-    position: absolute;
-    width: 704px;
-    height: 54px;
-    left: 615px;
-    top: 650px;
-    
-    font-family: 'Inria Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 54px;
-    /* identical to box height */
-    
-    text-align: center;  
-  }
-
-  p {
-    position: absolute;
-    width: 704px;
-    height: 324px;
-    left: 615px;
-    top: 1000px;
-    
-    font-family: 'Inria Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;  
-  }
-}
-
-.web-skills-img{
-  position: absolute;
-  top: 0px;
-  left: 225px;
-
-  .lang-logos {
-    position: absolute;
-    width: 546px;
-    height: 300px;
-    left: 368px;
-    top: 735px;
-    
-    background: url(html_css_js.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
-  }
-
-  .fig-logo{
-    position: absolute;
-    width: 200px;
-    height: 189px;
-    left: 942px;
-    top: 780px;
-    
-    background: url(figma.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
-  }
-}
 
 
 /*Portfolio section*/
@@ -494,4 +398,5 @@ a {
 
 
 /*Contact section*/
+
 
