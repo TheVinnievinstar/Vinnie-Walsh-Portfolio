@@ -1,2 +1,2 @@
 # Portfolio
- Perosnal portfolio created using HTML, CSS and JavaScript
+ Personal portfolio created using HTML, CSS, Bootstrap and JavaScript
