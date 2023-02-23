@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400&family=Karla:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <title>Vinnie Walsh</title>
+  </head>
+  <body>
+    
+    <!--Header/Menu-->
+    <header>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl pb-5 mb-5">
+          <a href="index.html" class="navbar-brand">
+            <span class="text-secondary display-6">
+              Portfolio
+            </span>
+          </a>
+
+          <!--Toggle Button for mobile nav-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!--navbar links-->
+          <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link mx-4 fs-4 text-decoration-underline text-secondary" href="index.html">
+                Home
+              </a></li>
+
+              <li class="nav-item"><a class="nav-link mx-4 fs-4 text-decoration-underline text-secondary" href="about.html">
+                About Me
+              </a></li>
+
+              <li class="nav-item"><a class="nav-link mx-4 fs-4 text-decoration-underline text-secondary" href="skills.html">
+                Skills
+              </a></li>
+
+              <li class="nav-item"><a class="nav-link mx-4 fs-4 text-decoration-underline text-secondary" href="portfolio.html">
+                Portfolio
+              </a></li>
+
+              <li class="nav-item"><a class="nav-link mx-4 fs-4 text-decoration-underline text-secondary" href="contact.html">
+                Contact Me
+              </a></li>
+            </ul>
+
+          </div>
+            
+
+        </div>
+      </nav>
+    </header>
+
+
+
+    <!--About Me no bootstrap
+      <div class="mugshot-img">
+        <img src="img/mugshot.png" height="605" width="605" alt="Selfie of me">
+      </div>
+      
+      <section class="about">
+        
+        <h1>About Me</h1>
+        
+        <p>
+          I am a hard-working, motivated and reliable individual with excellent timekeeping skills. Prone to learn new skills, I am always challenging myself to do better and complete every task above standards.<br><br>I am self-taught in Web and Software Development, learning from repeatable companies such as Codecademy and ITCareerSwitch courses. From these courses I have learnt the fundamental of creating a website and software using coding languages such as PHP, Python, JavaScript and many more. I am also self-taught in a multitude of visual effects and animation programs.
+        </p>
+        
+      </section>
+    -->
+
+    <!--about me desc-->
+    <section id="hero">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          
+          <div class="col-md-7 text-center text-md-center">
+
+            <h1>
+              <div class="fs-1">
+                About Me
+              </div>
+            </h1>
+            <p>
+              <div class="fs-4 text-muted">
+                I am a hard-working, motivated and reliable individual with excellent timekeeping skills. Prone to learn new skills, I am always challenging myself to do better and complete every task above standards.<br><br>I am self-taught in Web and Software Development, learning from repeatable companies such as Codecademy and ITCareerSwitch courses. From these courses I have learnt the fundamental of creating a website and software using coding languages such as PHP, Python, JavaScript and many more. I am also self-taught in a multitude of visual effects and animation programs.
+              </div>
+            </p>
+          </div>
+
+          <div class="col-md-5 text-centered d-none d-xl-block">
+            <img class="img-fluid" src="img/mugshot.png" alt="Me">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--Main Section-->
+    <section id="main">
+      <div class="container-lg">
+        <div class="text-center text-md-center">
+          <h1>
+            <div class="fs-1 pb-5 m-2">
+              How it all started
+            </div>
+          </h1>
+
+          <div class="row justify-content-evenly m-5">
+
+            <p class="fs-4 row col-4">
+              When I was in secondary school, I had the desire to be a YouTuber, this leading me to make content on gaming.
+            </p>
+            
+            <div class="col-4 d-none d-xl-block" style="rotate: 3deg;">
+              <img class="img-fluid rounded-4 shadow border border-2" src="img/ttv_banner.PNG" alt="TheVinnievinstar YouTube banner">
+            </div>
+          </div>
+
+          <!--Intros-->
+            <div class="container-lg">
+              <div class="row cols-5 justify-content-evenly">
+                <div class="container-lg row col">
+                  <img class="position-absolute img-fluid rounded-pill" style="left: 260px; top: 960px; height: 240px; width: 430px; rotate: -3.5deg;" src="img/ZAVIXZ_Intro.png" alt="Zavixz thumbnail">
+                  
+                  <img class="position-absolute img-fluid rounded-pill" style="left: 600px; top: 960px; height: 170px; width: 380px; rotate: 14deg;" src="img/fmp_firsyr.JPG" alt="Final Major Project thumbnail">
+                  
+                  <img class="position-absolute img-fluid rounded-pill" style="left: 260px; top: 1100px; height: 180px; width: 340px; rotate: -10deg;" src="img/isom_thumb.jpg" alt="isom thumbnail">
+                  
+                  <img class="position-absolute img-fluid rounded-pill" style="left: 500px; top: 1070px; height: 220px; width: 430px; rotate: 5deg;" src="img/lyte_thumbnail.jpg" alt="lyte thumbnail">
+                </div>
+                  
+                <p class="fs-4 row col text-center">
+                  As much as I enjoyed creating gaming videos, I wanted to improve on visual effects thus, I started learning how to animate using Cinema 4D and Adobe After Effects for the visual effects.<br><br> Eventually, I started a new channel to advertise my work. I started gaining clients and a following with one channel at almost 1000 subscribers on a YouTube channel and over 500 subscribers on another that I used to showcase to a college.
+                </p>
+              </div>
+            </div>
+              
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--How it started-->
+    <section class="started">
+      <!--
+        
+        <h1>How it all started</h1>
+
+        <p class="about-para">
+          When I was in secondary school, I had the desire to be a YouTuber, this leading me to make content on gaming.
+        </p>
+        
+        <img class="ttv1" width="458px" height="141px" src="img/ttv_banner.PNG" alt="">
+        
+      -->
+
+      <!--<div class="icon-arrow"></div>-->
+
+      <!--Intros-->
+      <section class="intro-yt">
+        <!--intro desc-->
+        <p class="sec2">
+          As much as I enjoyed creating gaming videos, I wanted to improve on visual effects thus, I started learning how to animate using Cinema 4D and Adobe After Effects for the visual effects.<br><br> Eventually, I started a new channel to advertise my work. I started gaining clients and a following with one channel at almost 1000 subscribers on a YouTube channel and over 500 subscribers on another that I used to showcase to a college.
+        </p>
+        
+        <!--intro thumbnails-->
+        <div class="intro-thumbs">
+          <img class="intro-zav" src="img/ZAVIXZ_Intro.png" alt="zavixz intro thumbnail">
+          <img class="fmp" src="img/fmp_firsyr.JPG" alt="FMP thumbnail">
+          <img class="isom" src="img/isom_thumb.jpg" alt="ismo intro thumbnail">
+          <img class="lyte" src="img/lyte_thumbnail.jpg" alt="lyte intro thumbnail">
+        </div>
+            
+            <!--intro thumbnail desc-->
+            <p>
+              Animation I created for clients, contest and college projects.
+            </p>
+      
+      </section>
+
+      <!--College-->
+      <section class="college">
+
+        <p class="sec3">
+          After finishing school, I wanted to proceed further with animation, so I enrolled on a Motion Graphics and Animation Course.<br>I finished the 2 years with an UAL Level 3 Extended Diploma in Creative Media Production and Technology.
+        </p>
+        
+        <div class="fmp_thumbs">
+          <img class="fmp1" src="img/fmp_1.JPG" alt="Final Major Project year 2 1st attempt thumbnail">
+          <img class="fmp2" src="img/fmp2.JPG" alt="Final Major Project year 2 2nd attempt thumbnail">
+        </div>
+
+        <p>
+          College - Final Major Project<br>Holographic Arm
+        </p>
+        
+      </section>
+
+
+      <!--Web Development-->
+      <section class="web">
+  
+        <p class="sec4">
+          Having an interest in developing websites and coding but never trying it I finally threw myself into a course to learn the fundamental of full-stack development. This taught me commonly used languages used to create websites, programs and servers.<br>After doing the course it helped me decide this is what I want as a career.
+        </p>
+        
+        <div class="web-figma">
+
+          <img class="rf-fig" src="img/RF_wireframe.JPG" alt="Roland Fitness figma design">
+
+          <img class="jvs-fig" src="img/JVScents_wireframe.JPG" alt="JV Scents figma design">
+
+        </div>
+
+        <p>
+          A couple of website designs created using Figma.
+        </p>
+        
+      </section>
+
+    </section>
+
+
+  </body>
+</html>
